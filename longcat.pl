@@ -7,14 +7,16 @@ my $i = 0;
 my $rand = int(rand(100000));
 
  print "      \/\\___\/\\\n";
- print "     \/        \\\n";
- print "    \|   O  O   \|\n";
- print "    \|     ▾    \|\n";
- print "     \\   ︶︶ \/\n";
+ print "     \/        \\         ______________________________\n";
+ print "    \|   O  O   \|      /                               \\ \n";
+ print "    \|     ▾    \|    <    Enter キーポチってニャーン！  |\n";
+ print "     \\   ︶︶ \/       \\_______________________________/   \n";
  print "     \/        \\_______\n";
  print "    \/     __________   \\\n";
  print "    \|  ________   \\ \\__\/\n";
  print "    \|       \|  \\__\/\n";
+ my $input = <STDIN>;
+ chomp($input);
 for ($i = 0; $i < $rand; $i++){
  print "    \|       \|\n";
 }
